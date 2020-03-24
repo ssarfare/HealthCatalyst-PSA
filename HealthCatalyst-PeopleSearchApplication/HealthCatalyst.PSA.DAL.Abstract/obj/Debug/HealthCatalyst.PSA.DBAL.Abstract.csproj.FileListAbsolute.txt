@@ -1,0 +1,11 @@
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\HealthCatalyst.PSA.DBAL.Abstract.dll
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\HealthCatalyst.PSA.DBAL.Abstract.pdb
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\HealthCatalyst.PSA.DAL.EntityModel.dll
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\EntityFramework.dll
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\HealthCatalyst.PSA.DAL.EntityModel.pdb
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\HealthCatalyst.PSA.DAL.EntityModel.dll.config
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\bin\Debug\EntityFramework.xml
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\obj\Debug\HealthCatalyst.PSA.DBAL.Abstract.csprojAssemblyReference.cache
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\obj\Debug\HealthCatalyst.PSA.DBAL.Abstract.csproj.CopyComplete
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\obj\Debug\HealthCatalyst.PSA.DBAL.Abstract.dll
+E:\Git Repos\Dot-Net-Projects\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.DAL.Abstract\obj\Debug\HealthCatalyst.PSA.DBAL.Abstract.pdb

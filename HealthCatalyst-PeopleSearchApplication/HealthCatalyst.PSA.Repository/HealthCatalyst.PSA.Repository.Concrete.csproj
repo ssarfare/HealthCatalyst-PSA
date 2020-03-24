@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CF4353A-BC23-4A19-A659-E3E0C5ED0C6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HealthCatalyst.PSA.Repository.Concrete</RootNamespace>
+    <AssemblyName>HealthCatalyst.PSA.Repository.Concrete</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PersonRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HealthCatalyst.PSA.AbstractRepository\HealthCatalyst.PSA.Repository.Abstract.csproj">
+      <Project>{B8F35888-586E-437E-8CD9-59904DA2D4B9}</Project>
+      <Name>HealthCatalyst.PSA.Repository.Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HealthCatalyst.PSA.DAL.Abstract\HealthCatalyst.PSA.DAL.Abstract.csproj">
+      <Project>{DB83A31D-2BED-428F-8172-5A4999DA2906}</Project>
+      <Name>HealthCatalyst.PSA.DAL.Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HealthCatalyst.PSA.DAL.EntityModel\HealthCatalyst.PSA.DAL.EntityModel.csproj">
+      <Project>{3B30949A-1B96-4320-B005-1ADC9C2A5B62}</Project>
+      <Name>HealthCatalyst.PSA.DAL.EntityModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HealthCatalyst.PSA.DAL\HealthCatalyst.PSA.DAL.Concrete.csproj">
+      <Project>{D0BB9FAC-53E9-403B-81BA-8286A327F842}</Project>
+      <Name>HealthCatalyst.PSA.DAL.Concrete</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

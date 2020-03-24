@@ -1,0 +1,8 @@
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\bin\Debug\HealthCatalyst.PSA.BAL.Abstract.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\bin\Debug\HealthCatalyst.PSA.BAL.Abstract.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\obj\Debug\HealthCatalyst.PSA.BAL.Abstract.csprojAssemblyReference.cache
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\obj\Debug\HealthCatalyst.PSA.BAL.Abstract.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\obj\Debug\HealthCatalyst.PSA.BAL.Abstract.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\bin\Debug\HealthCatalyst.PSA.BAL.Models.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\bin\Debug\HealthCatalyst.PSA.BAL.Models.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCatalyst.PSA.BAL.Abstract\obj\Debug\HealthCatalyst.PSA.BAL.Abstract.csproj.CopyComplete

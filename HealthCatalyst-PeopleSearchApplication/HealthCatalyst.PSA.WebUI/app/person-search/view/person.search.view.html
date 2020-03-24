@@ -1,0 +1,62 @@
+﻿
+<div ng-controller="PersonSearchController as PersonSearchCtrl" ng-init="PersonSearchCtrl.Search()">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <input class="form-control mb-2 mt-2" ng-model-options='{ debounce: 500 }' margin:15px;" type="search" placeholder="Search by First or Last Name" ng-model="PersonSearchCtrl.queryString" ng-change="PersonSearchCtrl.Search()" aria-label="Search">
+            </div>
+        </div>
+
+        <div class="row person">
+            <div class="col-md-4" ng-repeat="person in PersonSearchCtrl.personList">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            {{person.FirstName}} {{person.LastName}}<br />
+                            <small>
+                                {{person.Age}} | {{person.Gender}} | {{person.DateOfBirth | date:'MMM d, y'}}
+                            </small>
+                        </h5>
+                        <div class="card-text">
+                            <div class="contact-info" ng-repeat="contact in person.PersonContactInformationBusinessModels">
+                                <small>
+                                    <strong>{{contact.PhoneNumber}}</strong> | {{contact.Address}}
+                                </small>
+                            </div>
+                            <div class="interest">
+                                <span class="badge badge-secondary" ng-repeat="interest in person.PersonInterestBusinessModels">{{interest.Interest}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-control info" ng-show="PersonSearchCtrl.personList.length==0">
+            <span ng-class="{'scroll-disable':NoRecords}">no records found.</span>
+        </div>
+        
+        <!--Pagination-->
+        <nav aria-label="Page navigation example">
+            <!-- pager -->
+            <ul ng-if="PersonSearchCtrl.pager.pages.length>0" class="pagination">
+                <li class="page-item" ng-class="{disabled:PersonSearchCtrl.pager.currentPage === 1}">
+                    <button class="page-link" ng-click="PersonSearchCtrl.SetPage(1)">First</button>
+                </li>
+                <li class="page-item" ng-class="{disabled:PersonSearchCtrl.pager.currentPage === 1}">
+                    <button class="page-link" ng-click="PersonSearchCtrl.SetPage(PersonSearchCtrl.pager.currentPage - 1)">Previous</button>
+                </li>
+                <li class="page-item" ng-repeat="page in PersonSearchCtrl.pager.pages" ng-class="{active:PersonSearchCtrl.pager.currentPage === page}">
+                    <button class="page-link" ng-click="PersonSearchCtrl.SetPage(page)">{{page}}</button>
+                </li>
+                <li class="page-item" ng-class="{disabled:PersonSearchCtrl.pager.currentPage === PersonSearchCtrl.pager.totalPages}">
+                    <button class="page-link" ng-click="PersonSearchCtrl.SetPage(PersonSearchCtrl.pager.currentPage + 1)">Next</button>
+                </li>
+                <li class="page-item" ng-class="{disabled:PersonSearchCtrl.pager.currentPage === PersonSearchCtrl.pager.totalPages}">
+                    <button class="page-link" ng-click="PersonSearchCtrl.SetPage(PersonSearchCtrl.pager.totalPages)">Last</button>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+</div>
+

@@ -1,0 +1,12 @@
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCayalyst.PSA.BAL.Concrete.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCayalyst.PSA.BAL.Concrete.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCatalyst.PSA.BAL.Abstract.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCatalyst.PSA.BAL.Abstract.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\obj\Debug\HealthCayalyst.PSA.BAL.Concrete.csprojAssemblyReference.cache
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\obj\Debug\HealthCayalyst.PSA.BAL.Concrete.csproj.CopyComplete
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\obj\Debug\HealthCayalyst.PSA.BAL.Concrete.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\obj\Debug\HealthCayalyst.PSA.BAL.Concrete.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCatalyst.PSA.BAL.Models.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCatalyst.PSA.BAL.Models.pdb
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCatalyst.PSA.DAL.Abstract.dll
+E:\Notes\Dot Net\HealthCatalyst-PeopleSearchApplication\HealthCayalyst.PSA.BAL.Concrete\bin\Debug\HealthCatalyst.PSA.DAL.Abstract.pdb
